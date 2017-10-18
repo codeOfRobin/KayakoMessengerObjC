@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4259FD721F97460400771E55 /* PINCacheTexture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4259FD701F9745F400771E55 /* PINCacheTexture.framework */; };
 		42E4455E1F4B0772003D1CA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E4455D1F4B0772003D1CA2 /* main.m */; };
 		42E445611F4B0772003D1CA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E445601F4B0772003D1CA2 /* AppDelegate.m */; };
 		42E445641F4B0772003D1CA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E445631F4B0772003D1CA2 /* ViewController.m */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4259FD701F9745F400771E55 /* PINCacheTexture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCacheTexture.framework; path = Carthage/Build/iOS/PINCacheTexture.framework; sourceTree = "<group>"; };
 		42E445591F4B0772003D1CA2 /* TestObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E4455D1F4B0772003D1CA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42E4455F1F4B0772003D1CA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4259FD721F97460400771E55 /* PINCacheTexture.framework in Frameworks */,
 				42E445861F4B07A2003D1CA2 /* StatefulViewController.framework in Frameworks */,
 				42E445821F4B07A2003D1CA2 /* PINCache.framework in Frameworks */,
 				42E4457F1F4B07A2003D1CA2 /* Birdsong.framework in Frameworks */,
@@ -75,9 +78,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4259FD711F97460400771E55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		42E445501F4B0772003D1CA2 = {
 			isa = PBXGroup;
 			children = (
+				4259FD701F9745F400771E55 /* PINCacheTexture.framework */,
 				42E445731F4B07A2003D1CA2 /* AsyncDisplayKit.framework */,
 				42E445741F4B07A2003D1CA2 /* Birdsong.framework */,
 				42E445751F4B07A2003D1CA2 /* KayakoMessenger.framework */,
@@ -91,6 +102,7 @@
 				42E4457D1F4B07A2003D1CA2 /* Wrap.framework */,
 				42E4455B1F4B0772003D1CA2 /* TestObjC */,
 				42E4455A1F4B0772003D1CA2 /* Products */,
+				4259FD711F97460400771E55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -215,6 +227,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Starscream.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/StatefulViewController.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/KayakoMessenger.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PINCacheTexture.framework",
 			);
 			outputPaths = (
 			);
@@ -408,6 +421,7 @@
 				42E445721F4B0772003D1CA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
